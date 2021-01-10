@@ -21,7 +21,7 @@ print(z)
 
 5.Remove the illegal characters in the variable name:
 
-myfirst_name = "John"
+my_first_name = "John"
 
 6.Insert the correct syntax to assign the same value to all three variables in one code line.
 
