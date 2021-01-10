@@ -1,6 +1,6 @@
 1.Create a variable named carname and assign the value Volvo to it.
 
-carname = Volvo
+carname = "Volvo"
 
 2.Create a variable named age and assign the value 22 to it.
   
@@ -21,11 +21,11 @@ print(z)
 
 5.Remove the illegal characters in the variable name:
 
-my_first_name = "John"
+myfirst_name = "John"
 
 6.Insert the correct syntax to assign the same value to all three variables in one code line.
 
-x, y, z = "Orange", "Dirian", "Grapee"
+x = y = z = "Orange"
 
 7.Insert the correct keyword to make the variable x belong to the global scope.
 
