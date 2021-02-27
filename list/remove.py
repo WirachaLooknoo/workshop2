@@ -1,4 +1,4 @@
-Python Lists
+#Python Lists
 
 #Access List items
 thislist = ["apple", "banana",  "cherry"]
@@ -12,13 +12,13 @@ print(thislist[-2])	# Output: banana
 print(thislist[-3])	# Output: apple
 
 print(thislist[1:])	# Output: ['banana' ,  'cherry']
-------------------------------------------------
+# ------------------------------------------------
 #Change item Value
 thislist  =  ["apple", "banana",  "cherry"]
 thislist [1]  = "watermelon"
 
 print(thislist) # Output:  ["apple", "watermelon",  "cherry" ]
-------------------------------------------------
+# ------------------------------------------------
 #Add List Items
 #EXAMPLE 1
 thislist = ["apple",  "banana",  "cherry" ]
@@ -30,7 +30,7 @@ print(thislist)  # Output: ['apple', 'banana', 'cherry', 'orenge' ]
 thislist = ["apple",  "banana",  "cherry" ]
 thislist.insert(1, "orange")
 print(thislist)    # Output: ['apple', 'orenge', 'banana', 'cherry' ]
-----------------------------------------------------
+# ----------------------------------------------------
 #Remove List Items
 # EXAMPLE 1
 thislist = ["apple",  "banana",  "cherry" ]
@@ -56,7 +56,7 @@ print(thislist)  # Output: ['banana',  'cherry' ]
 thislist = ["apple",  "banana",  "cherry" ]
 thislist.clear()
 print(thislist)  # Output: [ ]
------------------------------------------
+# -----------------------------------------
 #Sort List
 # EXAMPLE 1
 thislist = [100,  50,  65,  82,  23]
@@ -67,7 +67,7 @@ print(thislist)  # Output: [ 23,  50,  65,  82,  100]
 thislist = [100,  50,  65,  82,  23]
 thislist.sort(reverse=True)
 print(thislist)  # Output: [ 100,  82,  65,  50,  23]
----------------------------------------------
+# ---------------------------------------------
 #Join List
 list1 = [1,  2,  3]
 list2 = [4,  5,  6]
@@ -75,7 +75,7 @@ list2 = [4,  5,  6]
 list3  =  list1 +  list2
 
 print(list3)  # Output: [1,  2,  3,  4,  5,  6]
------------------------------------------------
+# -----------------------------------------------
 #Loop List
 fruit_list  = ["apple",  "banana",  "cherry" ]
 for  fruit  in  fruit_list:
